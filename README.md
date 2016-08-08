@@ -1,4 +1,5 @@
 # DHT网络爬虫
+[![Build Status](https://drone.io/github.com/btlike/spider/status.png)](https://drone.io/github.com/btlike/spider/latest)
 
 高性能DHT网络爬虫，5美金的单核,768MB的[VPS](https://www.vultr.com/pricing/)上，每秒处理UDP请求超过12K，内存占用不超过100MB，每天抓取数千万去重infohash
 
@@ -13,6 +14,10 @@
 ## 示例
 
 参考[example](https://github.com/btlike/spider/blob/master/example)
+
+
+### 安装
+`go get github.com/btlike/spider`
 
 
 
