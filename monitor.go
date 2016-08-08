@@ -37,7 +37,7 @@ func Monitor() {
 		adjustFindFrequency(countGetPeers - preCountGetPeers)
 		preCountGetPeers = countGetPeers
 		logger("发出find_node请求数量", countFindRequest)
-		logger("收到find——node回复数量", countFindResponse)
+		logger("收到find_node回复数量", countFindResponse)
 		logger("收到find_node请求数量", countFindNode)
 		logger("收到ping请求数量", countPing)
 		logger("收到announce_peer请求数量", countAnnounce)
